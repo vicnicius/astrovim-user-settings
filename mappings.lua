@@ -18,8 +18,14 @@ return {
     -- tables with the `name` key will be registered with which-key if it's installed
     -- this is useful for naming menus
     ["<leader>b"] = { name = "Buffers" },
+    ["<C-j>"] = { "5j" },
+    ["<C-k>"] = { "5k" }
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+  },
+  v = {
+    ["<C-j>"] = { "5j" },
+    ["<C-k>"] = { "5k" }
   },
   t = {
     -- setting a mapping to false will disable it
